@@ -1,0 +1,28 @@
+Use this Kaggle dataset:
+Predictive Maintenance Dataset
+
+Place it in data/ folder and rename as sensor_data.csv.
+
+9. How to Run Locally
+
+Install Python dependencies:
+
+pip install -r requirements.txt
+
+
+Train the model:
+
+python src/model.py
+
+
+Run the dashboard:
+
+streamlit run src/dashboard.py
+
+10. Upload to GitHub
+git init
+git add .
+git commit -m "Initial commit: Predictive Maintenance Project"
+git branch -M main
+git remote add origin <your-github-repo-link>
+git push -u origin main
