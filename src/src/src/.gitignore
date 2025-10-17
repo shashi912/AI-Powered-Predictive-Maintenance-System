@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+outputs/model.pkl
+outputs/prediction_sample.csv
